@@ -1,0 +1,31 @@
+body {
+    background-color: palevioletred
+}
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: circle;
+    background-color: beige;
+    color: brown;
+}
+#text_id:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+#about_id:hover {
+    color: darkviolet;
+    cursor: pointer;
+}
+#services_id:hover {
+    color: blue;
+cursor: pointer;
+}
+#courtesy_id:hover {
+    color: coral;
+    cursor: pointer;
+}
+#contact_id:hover {
+    color: aqua;
+    cursor: pointer;
+}
